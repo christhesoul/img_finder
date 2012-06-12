@@ -72,7 +72,6 @@ function img_finder_setting_string() {
 		$checked = $options[$post_type] == 1 ? ' checked=checked' : '';
 	  echo '<input type="checkbox" id="'.$post_type.'_cb" name="img_finder_options['.$post_type.']" value="1"'.$checked.'><label for="'.$post_type.'_cb">'.$post_type.'</label><br>';
 	}
-	print_r($options);
 }
 
 function img_finder_options_validate($input) {
